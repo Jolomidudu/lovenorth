@@ -3,6 +3,7 @@
 import { Profile } from "@/lib/types";
 import { Heart, MessageCircle, X } from "lucide-react";
 import Link from "next/link";
+import { DEFAULT_USER_PROFILE } from "@/lib/storage";
 
 interface MatchModalProps {
   profile: Profile;
@@ -37,7 +38,7 @@ export default function MatchModal({ profile, onClose }: MatchModalProps) {
         <div className="flex justify-center items-center gap-[-12px] px-6 py-4">
           <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-[#ff4458] shadow-lg -mr-4 z-10">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
+              src={DEFAULT_USER_PROFILE.photos[0]}
               alt="You"
               className="w-full h-full object-cover"
             />

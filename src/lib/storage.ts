@@ -14,7 +14,7 @@ export const DEFAULT_USER_PROFILE: UserProfile = {
   bio: "Curious, kind, and always looking for the next good conversation.",
   location: "Lagos",
   photos: [
-    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=1000&fit=crop",
+    "https://images.unsplash.com/photo-1618051438543-9f85cab01c60?auto=format&fit=crop&w=800&h=1000&q=85",
   ],
   interests: ["Travel", "Music", "Tech", "Fitness"],
   datingGoal: "Something meaningful",

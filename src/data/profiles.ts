@@ -1,5 +1,8 @@
 import { Profile } from "@/lib/types";
 
+const portrait = (photoId: string) =>
+  `https://images.unsplash.com/${photoId}?auto=format&fit=crop&w=800&h=1200&q=85`;
+
 export const DEMO_PROFILES: Profile[] = [
   {
     id: "1",
@@ -8,8 +11,8 @@ export const DEMO_PROFILES: Profile[] = [
     bio: "Coffee addict ☕ | Travel lover ✈️ | Looking for someone to explore the city with",
     location: "Lagos",
     photos: [
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&h=1200&fit=crop",
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&h=1200&fit=crop",
+      portrait("photo-1644152993066-9b9ee687930d"),
+      portrait("photo-1620176692803-8789577394e2"),
     ],
     interests: ["Travel", "Coffee", "Photography", "Yoga"],
     distance: 3,
@@ -21,8 +24,8 @@ export const DEMO_PROFILES: Profile[] = [
     bio: "Creative soul 🎨 | Music is my love language | Let's talk about your favorite albums",
     location: "Abuja",
     photos: [
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&h=1200&fit=crop",
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=800&h=1200&fit=crop",
+      portrait("photo-1602342323893-b11f757957c9"),
+      portrait("photo-1632612721400-0a337458b7ed"),
     ],
     interests: ["Art", "Music", "Fashion", "Dancing"],
     distance: 8,
@@ -34,8 +37,8 @@ export const DEMO_PROFILES: Profile[] = [
     bio: "Fitness enthusiast 💪 | Foodie at heart | Looking for genuine connections",
     location: "Lagos",
     photos: [
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=800&h=1200&fit=crop",
-      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=800&h=1200&fit=crop",
+      portrait("photo-1620424037570-15137a4a562d"),
+      portrait("photo-1606866020014-a3ef11efdc37"),
     ],
     interests: ["Fitness", "Cooking", "Movies", "Hiking"],
     distance: 5,
@@ -47,8 +50,8 @@ export const DEMO_PROFILES: Profile[] = [
     bio: "Bookworm 📚 | Sunset chaser 🌅 | Let's grab drinks and talk about everything",
     location: "Port Harcourt",
     photos: [
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&h=1200&fit=crop",
-      "https://images.unsplash.com/photo-1506863530036-1efeddceb991?w=800&h=1200&fit=crop",
+      portrait("photo-1725461563524-99f88dafeb4c"),
+      portrait("photo-1641472364272-a054db0760fe"),
     ],
     interests: ["Reading", "Wine", "Beach", "Podcasts"],
     distance: 12,
@@ -60,8 +63,8 @@ export const DEMO_PROFILES: Profile[] = [
     bio: "Entrepreneur 💼 | Adventure seeker | Looking for someone ambitious and kind",
     location: "Lagos",
     photos: [
-      "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb675?w=800&h=1200&fit=crop",
-      "https://images.unsplash.com/photo-1464863979621-258859e62245?w=800&h=1200&fit=crop",
+      portrait("photo-1593351799227-75df2026356b"),
+      portrait("photo-1663117172617-dada4103ecb3"),
     ],
     interests: ["Business", "Travel", "Networking", "Gym"],
     distance: 2,
@@ -73,8 +76,8 @@ export const DEMO_PROFILES: Profile[] = [
     bio: "Tech girl 👩‍💻 | Anime lover | Can talk about startups or Studio Ghibli for hours",
     location: "Ibadan",
     photos: [
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&h=1200&fit=crop",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=1200&fit=crop",
+      portrait("photo-1632612721495-b201b62b786c"),
+      portrait("photo-1688841167159-bed18ddaeb44"),
     ],
     interests: ["Tech", "Anime", "Gaming", "Coffee"],
     distance: 15,
@@ -86,8 +89,8 @@ export const DEMO_PROFILES: Profile[] = [
     bio: "Photographer 📸 | Nature lover | Let's create memories together",
     location: "Lagos",
     photos: [
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=800&h=1200&fit=crop",
-      "https://images.unsplash.com/photo-1496360167021-56a66845b17d?w=800&h=1200&fit=crop",
+      portrait("photo-1561406636-b80293969660"),
+      portrait("photo-1783013958986-09185193cae4"),
     ],
     interests: ["Photography", "Nature", "Hiking", "Dogs"],
     distance: 4,
@@ -99,8 +102,8 @@ export const DEMO_PROFILES: Profile[] = [
     bio: "Nurse by day, dancer by night 💃 | Looking for laughter and good vibes only",
     location: "Enugu",
     photos: [
-      "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=800&h=1200&fit=crop",
-      "https://images.unsplash.com/photo-1526510747491-63f787704f7e?w=800&h=1200&fit=crop",
+      portrait("photo-1658497729730-1aa2fa2728da"),
+      portrait("photo-1724744014251-3ed158125a2d"),
     ],
     interests: ["Dancing", "Healthcare", "Food", "Friends"],
     distance: 9,
